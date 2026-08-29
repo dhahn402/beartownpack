@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>The Bear Town Pack — New Bern, NC</title>
+<meta name="description" content="A small New Bern network of people who are genuinely good with animals. Vouched for, given a real website they own, and put in front of the neighbors already looking for them.">
+<link rel="canonical" href="https://beartownpack.com/">
+<meta name="theme-color" content="#6B4A2F">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="The Bear Town Pack">
+<meta property="og:title" content="The Bear Town Pack — New Bern, NC">
+<meta property="og:description" content="People in New Bern who are genuinely good with animals, and easy to find. Vouched for, one at a time.">
+<meta property="og:url" content="https://beartownpack.com/">
+<meta property="og:image" content="https://beartownpack.com/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Karla:wght@400;500;700&display=swap">
+<style>
+:root{
+  --ground:#F5F4F1; --surface:#FFFFFF; --surface-2:#EEEBE5;
+  --ink:#1C1611; --ink-soft:#574E45; --ink-faint:#8B8177;
+  --line:#DFD9D0; --line-soft:#EAE5DE;
+  --bear:#6B4A2F; --bear-wash:#F0E7DE; --on-bear:#FFF8F1;
+  --moss:#2F6B4A; --moss-wash:#E3EDE6;
+  --gold:#A8791E; --gold-wash:#F6EEDA;
+  --shadow:0 1px 2px rgba(28,22,17,.05), 0 10px 30px -14px rgba(28,22,17,.24);
+  --d:"Bricolage Grotesque","Helvetica Neue",system-ui,sans-serif;
+  --b:"Karla","Helvetica Neue",system-ui,sans-serif;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --ground:#131010; --surface:#1C1815; --surface-2:#241F1A;
+    --ink:#EFE8E0; --ink-soft:#B3A79A; --ink-faint:#8A7E72;
+    --line:#2E2721; --line-soft:#241F1A;
+    --bear:#C9A07A; --bear-wash:#2A211A; --on-bear:#17100A;
+    --moss:#6FBF92; --moss-wash:#152C1F;
+    --gold:#D8AC4E; --gold-wash:#2B2314;
+    --shadow:0 1px 2px rgba(0,0,0,.5), 0 10px 30px -14px rgba(0,0,0,.8);
+  }
+}
+:root[data-theme="dark"]{
+  --ground:#131010; --surface:#1C1815; --surface-2:#241F1A;
+  --ink:#EFE8E0; --ink-soft:#B3A79A; --ink-faint:#8A7E72;
+  --line:#2E2721; --line-soft:#241F1A;
+  --bear:#C9A07A; --bear-wash:#2A211A; --on-bear:#17100A;
+  --moss:#6FBF92; --moss-wash:#152C1F;
+  --gold:#D8AC4E; --gold-wash:#2B2314;
+  --shadow:0 1px 2px rgba(0,0,0,.5), 0 10px 30px -14px rgba(0,0,0,.8);
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--ground);color:var(--ink);font-family:var(--b);font-size:17px;line-height:1.6;-webkit-text-size-adjust:100%}
+.wrap{max-width:740px;margin:0 auto;padding:0 20px 64px}
+p{margin:0 0 1em}
+a{color:var(--moss)}
+
+.hero{padding:60px 0 6px}
+.eyebrow{font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:var(--bear);font-weight:700;margin-bottom:16px}
+h1{font-family:var(--d);font-weight:800;font-size:clamp(36px,8vw,62px);line-height:1.0;letter-spacing:-.03em;margin:0 0 20px;text-wrap:balance}
+.lede{font-size:clamp(18px,2.4vw,21px);color:var(--ink-soft);max-width:34em;margin-bottom:28px}
+.lede strong{color:var(--ink);font-weight:500}
+
+section{padding:46px 0;border-top:1px solid var(--line-soft)}
+h2{font-family:var(--d);font-weight:600;font-size:clamp(25px,4.4vw,34px);line-height:1.12;letter-spacing:-.02em;margin:0 0 10px;text-wrap:balance}
+.sub{color:var(--ink-soft);margin:0 0 26px;max-width:34em}
+
+.btn{display:inline-block;font-weight:700;font-size:16px;padding:14px 26px;border-radius:999px;
+  text-decoration:none;border:1.5px solid var(--bear);background:var(--bear);color:var(--on-bear)}
+.btn.ghost{background:transparent;color:var(--bear)}
+.cta{display:flex;flex-wrap:wrap;gap:11px;align-items:center}
+
+/* the vouch mark */
+.vouch{display:flex;gap:16px;align-items:flex-start;background:var(--gold-wash);
+  border-radius:14px;padding:20px 22px;margin-top:6px}
+.vouch .seal{flex:0 0 auto;width:46px;height:46px;border-radius:50%;background:var(--gold);
+  color:#fff;display:flex;align-items:center;justify-content:center;font-size:23px;font-weight:700}
+:root[data-theme="dark"] .vouch .seal{color:#1B1408}
+.vouch .t{font-family:var(--d);font-weight:600;font-size:18px;margin-bottom:3px;color:var(--ink)}
+.vouch .d{font-size:15.5px;color:var(--ink-soft);line-height:1.5}
+
+/* member */
+.member{background:var(--surface);border:1px solid var(--line);border-radius:16px;
+  padding:26px 24px;box-shadow:var(--shadow)}
+.member .num{font-family:var(--d);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);font-weight:700}
+.member h3{font-family:var(--d);font-weight:600;font-size:25px;margin:8px 0 4px;letter-spacing:-.01em}
+.member .role{font-size:14.5px;color:var(--ink-faint);text-transform:uppercase;letter-spacing:.08em;font-weight:500}
+.member p{margin:14px 0 0;color:var(--ink-soft);font-size:16px}
+.member .links{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}
+
+.steps{display:flex;flex-direction:column;gap:12px;margin-top:6px}
+.step{display:flex;gap:15px;background:var(--surface);border:1px solid var(--line);border-radius:13px;padding:17px 19px;box-shadow:var(--shadow)}
+.step .n{flex:0 0 auto;width:29px;height:29px;border-radius:9px;background:var(--bear-wash);color:var(--bear);
+  font-family:var(--d);font-weight:700;font-size:14px;display:flex;align-items:center;justify-content:center}
+.step .t{font-weight:700;display:block;margin-bottom:2px}
+.step .d{color:var(--ink-soft);font-size:15.5px}
+
+.ladder{width:100%;border-collapse:collapse;font-size:16px;margin-top:8px}
+.ladder th{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-faint);text-align:left;padding:0 0 9px;font-weight:700}
+.ladder th.r,.ladder td.r{text-align:right}
+.ladder td{padding:11px 0;border-top:1px solid var(--line-soft);color:var(--ink-soft)}
+.ladder td.r{font-weight:700;color:var(--ink);font-variant-numeric:tabular-nums;white-space:nowrap}
+.tw{overflow-x:auto}
+
+.town{background:var(--bear);color:var(--on-bear);border-radius:18px;padding:32px 28px}
+:root[data-theme="dark"] .town{background:#241A12}
+.town h2{color:#FFF8F1;margin-bottom:8px}
+.town p{color:#EBDCCC}
+.town .facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:18px;margin-top:22px}
+.town .f b{display:block;font-family:var(--d);font-size:25px;font-weight:700;color:#FFF8F1;line-height:1.1}
+.town .f span{font-size:14.5px;color:#DCC9B5;line-height:1.4;display:block;margin-top:4px}
+
+footer{border-top:1px solid var(--line);margin-top:52px;padding-top:26px;font-size:14.5px;color:var(--ink-faint);line-height:1.65}
+footer a{color:var(--moss);font-weight:500}
+footer .verse{font-style:italic;margin-top:14px;display:block}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="hero">
+    <div class="eyebrow">New Bern · North Carolina</div>
+    <h1>The people who are actually good with animals, made easy to find.</h1>
+    <p class="lede">The Bear Town Pack is a small New Bern network. We find somebody who is
+      genuinely good at looking after animals, <strong>we vouch for them</strong>, we build them a
+      real website they own, and we put their name in front of the neighbors already searching
+      for it.</p>
+    <div class="cta">
+      <a class="btn" href="#members">See who is in it</a>
+      <a class="btn ghost" href="#join">Ask about joining</a>
+    </div>
+  </div>
+
+  <section>
+    <div class="vouch">
+      <div class="seal">✓</div>
+      <div>
+        <div class="t">One test to get in</div>
+        <div class="d">Would we hand you our own dog? That is the whole filter, and it is not
+          negotiable. A cheap plan means the standard has to be character, because our name goes
+          in the footer of every site we build.</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="members">
+    <h2>Who is in the pack</h2>
+    <p class="sub">One at a time, on purpose. Everybody here is somebody we know.</p>
+    <div class="member">
+      <div class="num">Member 01</div>
+      <h3>Teresa</h3>
+      <div class="role">Pet sitting · dog walking · overnights · cat care</div>
+      <p>Teresa came up through a boarding kennel on Race Track Road and works at a veterinary
+        office in New Bern now. Medication schedules, senior dogs, and cats who hide are ordinary
+        Tuesdays for her. She looks after our own dog, Reese.</p>
+      <div class="links">
+        <a class="btn" href="https://www.rover.com/promos/teriso17036/?utm_medium=direct&amp;utm_campaign=977262825&amp;utm_content=ssp&amp;utm_source=sit-link&amp;utm_term=N0X1l1LN" target="_blank" rel="noopener">Book Teresa on Rover</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="join">
+    <h2>How it works</h2>
+    <p class="sub">If you look after animals in Craven County — sitting, walking, grooming,
+      training, boarding, rescue, fostering — this is the whole arrangement.</p>
+    <div class="steps">
+      <div class="step"><div class="n">1</div><div>
+        <span class="t">You own your domain</span>
+        <span class="d">It is registered in your name. If you ever leave, you take your site and
+          your domain with you, free, without having to ask.</span></div></div>
+      <div class="step"><div class="n">2</div><div>
+        <span class="t">We build and look after the site</span>
+        <span class="d">A real website, your Google listing kept accurate, small edits when your
+          hours or prices change, and a plain monthly note about who found you.</span></div></div>
+      <div class="step"><div class="n">3</div><div>
+        <span class="t">It costs almost nothing while you are starting</span>
+        <span class="d">Fifty dollars a month under $1,500 of monthly revenue. It rises only as
+          you earn, and it drops again the month you do not.</span></div></div>
+      <div class="step"><div class="n">4</div><div>
+        <span class="t">Never a cut of your business</span>
+        <span class="d">No ownership, no percentage of your bookings, no holding your money. We
+          are a supplier, not a partner.</span></div></div>
+    </div>
+
+    <div class="tw">
+      <table class="ladder">
+        <tr><th>Your month</th><th class="r">You pay</th></tr>
+        <tr><td>Under $1,500</td><td class="r">$50</td></tr>
+        <tr><td>$1,500 – $3,499</td><td class="r">$100</td></tr>
+        <tr><td>$3,500 – $6,499</td><td class="r">$200</td></tr>
+        <tr><td>$6,500 and up</td><td class="r">$325</td></tr>
+      </table>
+    </div>
+    <p style="font-size:15px;color:var(--ink-soft);margin-top:14px">
+      It goes up only after two months in a band, comes down the first month you dip, and is
+      capped at 5% of what you made. You tell us the band — we do not ask to see your books.
+    </p>
+    <div class="cta" style="margin-top:22px">
+      <a class="btn" href="sms:+12522539629">Text us about joining</a>
+      <a class="btn ghost" href="https://hahntechcorp.com" target="_blank" rel="noopener">About Hahn Tech</a>
+    </div>
+  </section>
+
+  <section>
+    <div class="town">
+      <h2>Why "Bear Town"</h2>
+      <p>Because that is what this place is called, and it has been since long before any of us.</p>
+      <div class="facts">
+        <div class="f"><b>1710</b><span>Founded by Swiss and Palatine settlers — the second-oldest
+          colonial town in North Carolina</span></div>
+        <div class="f"><b>Bern = bear</b><span>Named for Bern, Switzerland. We are its sister city
+          and we share its coat of arms and its bear</span></div>
+        <div class="f"><b>100+</b><span>Hand-painted bears standing around town since the
+          tricentennial, and a Bear Plaza downtown</span></div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <b>The Bear Town Pack</b> — a project of Hahn Technologies Corp, New Bern, North Carolina<br>
+    Text: (252) 253&#8209;9629 · hahntechnologiescorp@gmail.com ·
+    <a href="https://hahntechcorp.com" target="_blank" rel="noopener">hahntechcorp.com</a><br>
+    A share of what this network makes goes to the SPCA. Adopt if you can, foster if you can't.
+    <span class="verse">Unless the LORD builds the house, the builders labor in vain. — Psalm 127:1</span>
+  </footer>
+</div>
+
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"Organization",
+  "name":"The Bear Town Pack",
+  "url":"https://beartownpack.com/",
+  "description":"A New Bern network of vouched-for animal care professionals, supported by Hahn Technologies Corp.",
+  "areaServed":{"@type":"City","name":"New Bern","addressRegion":"NC","addressCountry":"US"},
+  "parentOrganization":{"@type":"Organization","name":"Hahn Technologies Corp","url":"https://hahntechcorp.com"}
+}
+</script>
+</body>
+</html>
