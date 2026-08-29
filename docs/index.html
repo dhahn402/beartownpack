@@ -116,6 +116,43 @@ h2{font-family:var(--d);font-weight:600;font-size:clamp(25px,4.4vw,34px);line-he
 footer{border-top:1px solid var(--line);margin-top:52px;padding-top:26px;font-size:14.5px;color:var(--ink-faint);line-height:1.65}
 footer a{color:var(--moss);font-weight:500}
 footer .verse{font-style:italic;margin-top:14px;display:block}
+
+
+/* ---------- emergency ---------- */
+.alert{background:var(--bear-wash);border:2px solid var(--bear);border-radius:18px;padding:28px 24px}
+.alert h2{margin:0 0 8px}
+.alert .lede{color:var(--ink-soft);margin:0 0 18px;font-size:16px;line-height:1.6}
+.numbers{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px}
+.num{display:block;background:var(--ground);border:1px solid var(--line);border-radius:12px;
+  padding:16px 18px;text-decoration:none;transition:transform .12s ease,box-shadow .12s ease}
+.num:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(0,0,0,.10)}
+.num b{display:block;font-size:22px;letter-spacing:-.01em;color:var(--bear);
+  font-variant-numeric:tabular-nums;margin-bottom:5px}
+.num span{display:block;font-size:14px;line-height:1.5;color:var(--ink-soft)}
+.fine{font-size:14.5px;line-height:1.65;color:var(--ink-soft);margin-top:18px}
+
+/* ---------- safety cards ---------- */
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(272px,1fr));gap:14px;margin-top:6px}
+.s{background:var(--ground);border:1px solid var(--line);border-radius:14px;padding:20px 19px}
+.s .tag{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.11em;text-transform:uppercase;
+  color:var(--moss);background:var(--moss-wash);border-radius:999px;padding:4px 10px;margin-bottom:10px}
+.s h3{margin:0 0 8px;font-size:18px;line-height:1.25}
+.s p{margin:0;font-size:15px;line-height:1.6;color:var(--ink-soft)}
+
+/* ---------- orgs ---------- */
+.orgs{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px;margin-top:6px}
+.org{display:block;background:var(--ground);border:1px solid var(--line);border-radius:14px;
+  padding:20px 19px;text-decoration:none;transition:transform .12s ease,box-shadow .12s ease}
+.org:hover{transform:translateY(-2px);box-shadow:0 8px 22px rgba(0,0,0,.10)}
+.org b{display:block;font-size:17.5px;color:var(--ink);margin-bottom:7px}
+.org span{display:block;font-size:14.5px;line-height:1.55;color:var(--ink-soft)}
+.org .go{margin-top:10px;color:var(--moss);font-weight:600;font-size:14px}
+/* ---------- the proof photo ---------- */
+.proof{margin:30px 0 0;padding:0}
+.proof img{width:100%;max-width:520px;height:auto;border-radius:16px;display:block;margin:0 auto;
+  box-shadow:0 10px 30px rgba(0,0,0,.18)}
+.proof figcaption{max-width:520px;margin:14px auto 0;text-align:center;font-size:15px;line-height:1.6;
+  color:var(--ink-soft)}
 </style>
 </head>
 <body>
@@ -144,6 +181,13 @@ footer .verse{font-style:italic;margin-top:14px;display:block}
           in the footer of every site we build.</div>
       </div>
     </div>
+
+    <figure class="proof">
+      <img src="img/david-and-reese.jpg" alt="David Hahn crouched beside Reese, his hound, on the New Bern waterfront at sunset"
+           width="1071" height="1400" loading="lazy" decoding="async">
+      <figcaption>That is <b>Reese</b>, and that is the test. Every person in this pack is somebody
+        we would hand her to &mdash; and most of them already have looked after her.</figcaption>
+    </figure>
   </section>
 
   <section id="members">
@@ -203,6 +247,170 @@ footer .verse{font-style:italic;margin-top:14px;display:block}
       <a class="btn" href="sms:+12522539629">Text us about joining</a>
       <a class="btn ghost" href="https://hahntechcorp.com" target="_blank" rel="noopener">About Hahn Tech</a>
     </div>
+  </section>
+
+
+  <section id="emergency">
+    <div class="alert">
+      <h2>If something is wrong right now</h2>
+      <p class="lede">Put these in your phone before you need them. Every one of these numbers is
+        answered by a person, and the two poison lines run 24 hours a day.</p>
+      <div class="numbers">
+        <a class="num" href="tel:18884264435">
+          <b>(888) 426&#8209;4435</b>
+          <span>ASPCA Animal Poison Control &mdash; 24/7. A consultation fee may apply, and it is
+            worth it.</span>
+        </a>
+        <a class="num" href="tel:18557647661">
+          <b>(855) 764&#8209;7661</b>
+          <span>Pet Poison Helpline &mdash; 24/7, the second opinion if the first line is busy.</span>
+        </a>
+        <a class="num" href="tel:12526374606">
+          <b>(252) 637&#8209;4606</b>
+          <span>Craven&#8209;Pamlico Animal Services, 1639 Old Airport Road, New Bern &mdash; strays,
+            rabies, lost and found.</span>
+        </a>
+      </div>
+      <p class="fine"><b>Do not wait to see how it goes.</b> With most poisonings the window that
+        matters is measured in minutes, not hours, and calling costs you nothing but the call.
+        <b>Never make an animal vomit unless a vet or a poison line tells you to</b> &mdash; with some
+        substances it does more damage coming back up.</p>
+    </div>
+  </section>
+
+  <section id="safety">
+    <h2>Things that hurt animals, that most people do not know</h2>
+    <p class="sub">Not scare stories. Every one of these is something we have watched a good owner
+      get caught by.</p>
+
+    <div class="cards">
+      <div class="s">
+        <span class="tag">Kitchen</span>
+        <h3>Xylitol is the one nobody expects</h3>
+        <p>The sweetener in sugar&#8209;free gum, mints, some peanut butters and many
+          &ldquo;keto&rdquo; foods. In a dog it can crash blood sugar within 30 minutes and cause
+          liver failure. <b>Read the label on peanut butter before it goes in a Kong.</b></p>
+      </div>
+      <div class="s">
+        <span class="tag">Kitchen</span>
+        <h3>Grapes and raisins, in any amount</h3>
+        <p>There is no established safe dose. Some dogs eat a handful and are fine, some eat a few
+          and go into kidney failure, and nobody can tell you in advance which dog you have.
+          Treat any amount as a phone call.</p>
+      </div>
+      <div class="s">
+        <span class="tag">Kitchen</span>
+        <h3>Onion, garlic, leek, chive</h3>
+        <p>Raw, cooked, powdered or in gravy &mdash; they damage red blood cells in both dogs and
+          cats, and cats are more sensitive. The danger is usually the leftovers, not the meal.</p>
+      </div>
+      <div class="s">
+        <span class="tag">Cats</span>
+        <h3>Lilies can kill a cat from the pollen alone</h3>
+        <p>True lilies &mdash; Easter, Tiger, Day, Asiatic &mdash; cause kidney failure in cats.
+          Not just eating the plant: pollen on the fur, licked off while grooming, is enough.
+          <b>If you have a cat, do not have lilies in the house.</b></p>
+      </div>
+      <div class="s">
+        <span class="tag">Garage</span>
+        <h3>Antifreeze tastes sweet</h3>
+        <p>Ethylene glycol is sweet, animals will drink a spill on purpose, and a very small amount
+          causes kidney failure. Symptoms can look like drunkenness. <b>This is one of the fastest
+          emergencies there is</b> &mdash; hours matter.</p>
+      </div>
+      <div class="s">
+        <span class="tag">Medicine cabinet</span>
+        <h3>Human painkillers are not scaled&#8209;down dog painkillers</h3>
+        <p>Ibuprofen, naproxen and paracetamol are dangerous to dogs and cats even in small doses,
+          and paracetamol is especially lethal to cats. <b>Never give a human painkiller to an animal
+          without a vet telling you the drug and the dose.</b></p>
+      </div>
+      <div class="s">
+        <span class="tag">Summer &mdash; eastern NC</span>
+        <h3>Hot cars, and hot pavement</h3>
+        <p>A car at 70&deg;F outside passes 100&deg;F inside in about twenty minutes, and cracking a
+          window barely changes it. And check the ground with the back of your hand: if you cannot
+          hold it there for seven seconds, it will burn their pads. In a New Bern July, asphalt at
+          noon is not walkable.</p>
+      </div>
+      <div class="s">
+        <span class="tag">Water &mdash; eastern NC</span>
+        <h3>Blue&#8209;green algae on still water</h3>
+        <p>Late summer, warm slow water, a green or blue paint&#8209;like scum at the edge. The
+          toxins can kill a dog within hours of a swim or a drink. <b>If the water looks like
+          somebody poured paint in it, keep them out of it</b> &mdash; and rinse them off after any
+          brackish swim regardless.</p>
+      </div>
+      <div class="s">
+        <span class="tag">Every month, all year</span>
+        <h3>Heartworm here is not seasonal</h3>
+        <p>Coastal Carolina has mosquitoes most of the year, and heartworm is far cheaper to prevent
+          than to treat &mdash; treatment is months of cage rest and real risk. Year&#8209;round
+          prevention, and a yearly test even if you never miss a dose.</p>
+      </div>
+      <div class="s">
+        <span class="tag">Storm season</span>
+        <h3>Have a hurricane plan that includes them</h3>
+        <p>Not every shelter takes animals. Know before the storm which one does, keep a carrier per
+          animal, a week of food, medication and a copy of the rabies certificate together in one
+          bag, and <b>microchip them and keep the chip registration current</b> &mdash; a collar comes
+          off in flood water and a chip does not.</p>
+      </div>
+    </div>
+
+    <p class="fine">This page is written by people who love animals, not veterinarians. It is here to
+      make you call sooner, never to replace the call. When you are unsure, ring your vet or one of
+      the poison lines above.</p>
+  </section>
+
+  <section id="help">
+    <h2>Where to give, and who to call, in New Bern</h2>
+    <p class="sub">These are the people doing the work here. We are not affiliated with any of them
+      and we take nothing from any of them &mdash; go straight to them.</p>
+
+    <div class="orgs">
+      <a class="org" href="https://colonialcapital.wixsite.com/cchs" target="_blank" rel="noopener">
+        <b>Colonial Capital Humane Society</b>
+        <span>Craven County's <b>only no&#8209;kill shelter</b>, running since 1978 on volunteers and
+          donations. A registered 501(c)(3). PO Box 326, New Bern &middot; (252) 633&#8209;0146</span>
+        <span class="go">Adopt, foster, volunteer or donate &rarr;</span>
+      </a>
+      <a class="org" href="https://www.cravencountync.gov/1377/Animal-Adoption" target="_blank" rel="noopener">
+        <b>Craven&#8209;Pamlico Animal Services</b>
+        <span>The county shelter. Adoptions include the first rabies shot and spay/neuter or a
+          voucher toward it. They also take donated flea and tick preventives, heartworm test kits,
+          medication and toys.</span>
+        <span class="go">See who needs a home &rarr;</span>
+      </a>
+      <a class="org" href="https://www.cravencountync.gov/1375/Animal-Rabies-Management" target="_blank" rel="noopener">
+        <b>Rabies &amp; lost animals &mdash; Craven County</b>
+        <span>Low&#8209;cost rabies vaccination, animal control, and what to do if you find a stray or
+          have lost one. 1639 Old Airport Road &middot; (252) 637&#8209;4606</span>
+        <span class="go">County animal services &rarr;</span>
+      </a>
+      <a class="org" href="https://www.aspca.org/pet-care/animal-poison-control" target="_blank" rel="noopener">
+        <b>ASPCA Animal Poison Control</b>
+        <span>The 24&#8209;hour line, plus the most reliable list anywhere of what is toxic to dogs,
+          cats, horses and birds. Worth bookmarking before you need it.</span>
+        <span class="go">Poison control &amp; toxic plant list &rarr;</span>
+      </a>
+      <a class="org" href="https://www.avma.org/resources-tools/pet-owners/emergencycare" target="_blank" rel="noopener">
+        <b>Emergency &amp; disaster planning</b>
+        <span>The American Veterinary Medical Association's guidance on first aid and on getting
+          animals through a hurricane &mdash; which on this coast is a when, not an if.</span>
+        <span class="go">Emergency care &amp; storm planning &rarr;</span>
+      </a>
+      <a class="org" href="https://www.newbernnc.gov/" target="_blank" rel="noopener">
+        <b>City of New Bern</b>
+        <span>Parks and recreation, including <b>Down East Dog Park</b> at 340 Glenburnie Avenue
+          &mdash; the fenced one, with separate sides for big and small dogs.</span>
+        <span class="go">newbernnc.gov &rarr;</span>
+      </a>
+    </div>
+
+    <p class="fine"><b>If you can only do one thing:</b> the no&#8209;kill shelter runs on donations
+      and volunteers, and it is the one that runs out of money first. A share of what this network
+      makes goes there.</p>
   </section>
 
   <section>
