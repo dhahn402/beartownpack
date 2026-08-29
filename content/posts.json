@@ -1,0 +1,94 @@
+{
+  "_readme": "The queue. Each entry is a finished, reviewed post. hahn-pack-post.sh publishes the oldest unpublished one and rebuilds the blog. NOTHING is generated at publish time — every word here was written and checked before it entered the queue, because auto-written pet-health advice is how a wrong sentence reaches somebody's animal.",
+  "posts": [
+    {
+      "slug": "hurricane-plan-for-your-animals",
+      "title": "A hurricane plan that actually includes your animals",
+      "dek": "On this coast it is a when, not an if. The parts people forget are the paperwork and the carrier.",
+      "tag": "Storm season",
+      "published": "2026-08-29",
+      "body": [
+        "Every year in eastern North Carolina somebody leaves in a hurry and realises in the car that they have the dog but not the dog's medication, or the cat but no carrier, or both animals and no idea which shelter will take them.",
+        "**Not every emergency shelter accepts animals.** That is the single fact worth knowing before a storm rather than during one. Find out now which shelters in Craven County are pet-friendly, and write it on the fridge.",
+        "### The bag, packed before the season",
+        "One bag, in one place, that you can carry with one hand:",
+        "- **A week of food** in a sealed container, and a manual can opener if any of it is tinned",
+        "- **Every medication**, in the original labelled bottle, plus a photograph of the label on your phone",
+        "- **A copy of the rabies certificate.** Shelters and boarding kennels ask for it and will turn you away without it",
+        "- **A carrier for each animal.** Not one shared carrier. A frightened cat and a frightened dog in one box is its own emergency",
+        "- **A current photo of you with each animal** — that is what proves they are yours if you get separated",
+        "### The thing that matters more than the collar",
+        "**Microchip them, and keep the registration current.** A collar comes off in flood water. A chip does not. A chip registered to a phone number you gave up three years ago is the same as no chip at all — it takes five minutes online to update, and people put it off for years.",
+        "### During",
+        "Bring them inside before the weather turns, not once it has. Animals hide when they are frightened, and the moment you need to leave is the worst moment to be reaching under a bed. Keep them in one room with you, leashes and carriers already there.",
+        "### After",
+        "Familiar smells are gone after a flood and animals get lost in their own neighbourhood. Keep them leashed even in the yard for the first few days. Watch for standing water — it carries chemicals and bacteria, and dogs drink it."
+      ]
+    },
+    {
+      "slug": "heartworm-is-not-seasonal-here",
+      "title": "Heartworm is not seasonal here, and treatment is nothing like prevention",
+      "dek": "Coastal Carolina has mosquitoes most of the year. The gap between preventing this and treating it is enormous.",
+      "tag": "Every month",
+      "published": "2026-08-29",
+      "body": [
+        "People who move here from further north often keep a habit of stopping heartworm prevention in the autumn. On this coast that is a real risk. **Our mosquito season barely closes**, and it only takes one bite.",
+        "### Why the difference matters so much",
+        "Prevention is a monthly chew or a topical dose. It is cheap, it is boring, and it works.",
+        "Treatment is a series of injections, and **months of enforced rest** — no walks, no stairs, no excitement — because as the worms die they can break loose and block a blood vessel. It is expensive, it is hard on the animal, and it is hard on the family. Some dogs do not survive it.",
+        "### Two things people get wrong",
+        "**\"He never misses a dose, so he does not need the test.\"** Vets still test yearly, and there is a reason: a dose spat out behind the sofa looks exactly like a dose taken. The test is cheap and it is the only thing that actually knows.",
+        "**\"It is an indoor cat.\"** Cats get heartworm too. There is no approved treatment for cats — only prevention. In a cat, the first sign is sometimes the last one.",
+        "### If you have fallen behind",
+        "Do not simply restart. **Ring your vet and say exactly how long the gap was.** Starting prevention in a dog that is already infected can cause a serious reaction, which is why the test comes first. Nobody is going to tell you off — they would far rather have the conversation than the diagnosis."
+      ]
+    },
+    {
+      "slug": "first-five-minutes-of-a-poisoning",
+      "title": "The first five minutes, if you think they have eaten something",
+      "dek": "What to do, in order — and the one instinct that makes it worse.",
+      "tag": "Emergency",
+      "published": null,
+      "body": [
+        "The window that decides how this goes is usually measured in minutes. Here is the order.",
+        "### 1. Get them away from it",
+        "Move the animal, not the substance. Then keep whatever it was — the packet, the bottle, the plant, even the vomit. **What they ate and how much decides the whole treatment**, and a guess is worth much less than a label.",
+        "### 2. Call, before you look it up",
+        "**ASPCA Animal Poison Control — (888) 426-4435.** Twenty-four hours. A consultation fee may apply and it is worth every cent, because the person answering has a toxicology database in front of them and has heard your exact situation before.",
+        "**Pet Poison Helpline — (855) 764-7661** is the second line if the first is busy.",
+        "Call your own vet as well. But call one of these first if it is out of hours, because you will get an answer immediately.",
+        "### 3. Do not make them vomit",
+        "This is the instinct that does damage. **Never induce vomiting unless a vet or a poison line tells you to.** With corrosives and petroleum products it burns twice. With some substances it risks the animal breathing it in. And hydrogen peroxide, the old home remedy, can cause serious damage to the stomach lining.",
+        "Let the person on the phone decide. That is the entire reason to ring first.",
+        "### 4. Have this ready when they pick up",
+        "- Species, breed, rough weight, and age",
+        "- What you think it was, and how much — and read the label out",
+        "- **When**, as precisely as you can. Ten minutes ago and two hours ago are completely different situations",
+        "- What the animal is doing right now",
+        "### Worth knowing before it happens",
+        "Put both numbers in your phone tonight, under **Poison**. Nobody looks up a phone number well while their dog is shaking on the kitchen floor."
+      ]
+    },
+    {
+      "slug": "the-seven-second-pavement-test",
+      "title": "The seven-second test, and the rest of summer on this coast",
+      "dek": "Their pads burn long before you would think, and a cracked window does almost nothing.",
+      "tag": "Summer",
+      "published": null,
+      "body": [
+        "### The test itself",
+        "Put the back of your hand flat on the pavement and hold it there. **If you cannot keep it there for seven seconds, do not walk your dog on it.** They have no shoes, and burnt pads take weeks to heal.",
+        "In a New Bern July, asphalt in the middle of the day is not walkable. Grass and shade are, and so is early morning, which is better for both of you anyway.",
+        "### Cars",
+        "At 70°F outside, the inside of a car passes 100°F in about twenty minutes. **Cracking a window barely changes it.** On a genuinely hot day the numbers get much worse much faster.",
+        "There is no version of this where it is fine because you will only be a minute. Leave them at home. It is the kindest thing on a hot day regardless.",
+        "### Water",
+        "Fresh water in the shade, always. And carry it, because a hot dog will drink whatever is available — which on this coast may be brackish, or standing, or worse.",
+        "**Rinse them off after any swim in brackish water**, and keep them out of still water with a green or blue paint-like scum on it. Blue-green algae blooms in warm slow water in late summer and the toxins can kill a dog within hours.",
+        "### Knowing what heat stroke looks like",
+        "Heavy frantic panting, drooling more than usual, bright red gums, unsteadiness, vomiting, collapse. **This is an emergency.** Move them into shade, wet them with cool — not ice — water, and get to a vet immediately. Call on the way so they are ready for you.",
+        "Flat-faced breeds, older dogs, heavy-coated dogs and overweight dogs are all at higher risk and go down faster."
+      ]
+    }
+  ]
+}
